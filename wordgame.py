@@ -1,12 +1,7 @@
 #from PyDictionary import PyDictionary
-import random
+from wordlist.py import random
 import string
-#dict=PyDictionary()
 randomwordlist = ['works', 'tacos', 'apple', 'taboo', 'books', 'nears', 'swill', 'swank', 'paper', 'diffuser', 'bottle', 'essential', 'oil', 'water', 'coffee']
-
-#how to do number of tries left? - while loop - for each correct letter, or incorrect letter or word, add to number of tries list
-
-#print(len(PyDictionary))
 
 spacer=" "
 number_of_tries = 0
